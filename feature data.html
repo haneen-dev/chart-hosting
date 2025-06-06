@@ -1,0 +1,305 @@
+<!--
+	THIS EXAMPLE WAS DOWNLOADED FROM https://echarts.apache.org/examples/en/editor.html?c=parallel-nutrients&renderer=svg&decal=1&theme=dark&code=LYTwwgFghgTgLgOhgUwM4EsBeyAUBvAKAAIiB3dAEzggC4iA2ABkYBpiiJl0BzCOOgMzMCAXwCUAbgIBjAPYA7VHCLp5FdNLREAvEUIl5UYMjqt23GLICuABzoBGNiQrIAbsgA2sm8flwACpYWaKh0AExORDYw6LIxcCCCkXLANh7IAB7oCXQALJFw6MYAKrIASp7IUKgmRACskZR09KJSMgpKRKjSnMBQOkQA2ux4RIbGdADk48iTLCpqmaZEIpGjM1MW1jZzCy4ZDitrY0a1ky7uXj7IfoGywaiou6r74UcjJxNEk9Gx8SDPRYHIgCd4kdanKYpNKZbIA-YvJZEXJgvSfM6FErlSrVWYIoF0OqoiFfSaUQGvBgrAgAXTaAHp6UQACLIABmqmQRC2tiIcRcMCImTSGmyHhARDZcSIckU6CUN2Uci8gr6Nhsqm47UUyh5NjAUDgyG4cXQWl0wxIACIAMp9eBEACC0k0jytkStACFZLIANaaog2kAK4Du9hWx1WOCyPqFBREABkToAkmHrQB5YqOxOBkDyaRpohWgDiVjQygAohkbMgYjdNIWrRUbHFCvJuDmAGpm0ioRueqwYeQhIilWQePu0hlM1kc4eS9AZZAUGXj6U2KDpOBGog4CA8CCrvwwapwMREWM9APD0jcyy2VDazp6sBrmCoAaWosAYgrAHZcjAAQwHdIhGUDe1lGdV1H2tb8BFyABOAAOZlPVA8DvT9AMgxDcNv2QitclyR1mQwplI2jWNYnkHNHWTfD7EdT0wEQkD5nAzNsyTIN83wgAxewwFyRh-PIohS3LIgqxrOt82QfCK3oP8KzCMJxObVsAyTbtkF7fDELqR0jPocSByHEcxwnKcCAIcCbSMGEiAoQ1-nIagiFsFyjRXPVH1lTo2SqOArBQZlXM_dhBitSBkGkX0AFpVFHDRfWQOBQNtSCnRdEJQPsZh5gEeYGiIRgaUiaLmXQFBpGULD_XbIhO3U-YvR9RqO1wo1Q3mArWBBeZ6HmcrKqtP8EvCiUHPSD9NPgTL5rbDsdJ7Ps-sKogImREaKqiq0AEUyhzABZWQACN0HSIgAFV5C8eLMrtWAoNyt0NoG4qiD_XaxoqGoYFcQ0aJzfwoBAXxlF00hMskzoZNrM15PyzavtK0b9oRxQuWKE94trTLzM5R5Rx9CcUYG7b0b2khooAGSgRYV2LQ0uTBx45BcJ7sugvKPqKobfv2gB1aA4FQR11SIMGIcVIgKmAREYFhst4erRH62QCn5m2_IyppoYrVFw0JalyiY2BhRMvN6j4yTejtfqQX9bGsIEuF8GiC43N80y72eLzAt-ad76hdpq1ilS9KiBOxmoG4ZBIZVqSEbkhtg7RsPDfZ7pZBcCSbl3dN7s5el0zZNkPE5MRuZenKYMdvXhpd_aFdkHc7oe31a4dXn3qIfqBdDlvw7qSaeGyaXqlzrm2ue3u3vWgfNu25uMfDz1DSNGAJUddIFraonhxJqyl8Hrb5j19fDcgRmE9u-RJ_jBrNUJjqcODHrHe27br-i5MwC3TSLIKAK5_CyCUAlF-7Zk5q1kkjdOy9PqXyztFeiLI0DSBiDYOM8hrZRgtrguiqZg6lWpmNYs94bBEGgdwN-2EmrdUTo7L6a8Db00ZuoJqYME6wMrOrNOWsM4lVQRGZMRBb5QUePKOAjMMptRtpbWi9sSFIJESHP-Yj5ZuB7NokUaB8FUSUcQ0CiEBp61KvYOo7CrTe34lYDwHgfZByLP7ZxoFkIDVKj9b6NjPReA7DwoRRYj6WTJkvP8lMUFbU0cyPMRgNASVVsoJai1kAtngNpZqa1THIIYCVGxR1AyeDZBIzg8Ukp4LnjzReLDnaaPnsoA0l1hzKDprIR61S659zPptJuoiimvlSB4KAqhxaE0HMTD8p9v5D00aCA06Q1CwGyXpJeJZknSQEQg4JZj1HNwKjYx0248ZENjoYBOys2pw34fAzWdSL4j0No6fMV0Rk7xjnHS5fCtl3ORsHH-AyrDt2MVZCZFkT7hI8Xkg5miKggAgFGBAozwVTNJuOJeTB1E-JEjSGytkCXgQAHJxD6FXbAYwrDGBiNIZyrkCBsisPmIh8hSWbiwMgcKsicDeSgOefQdLZEIClDACsUAeg4EsLebQAA-PQ7ASBSuFXEMVEqcCuAROeWV8qSC6pUKUnA6AiAAEJtC6BeBoNACAZiJiTEa015q1CWtQAgPU_KFV6qIFKwY6AaQDA3O-ZA_EvCGnVeeAAPuGsqUhPXUj1eIGNKxJCiFsqymAZKOVcqgDgIKhpQqctcsmhlTK6ogwTnAdMOCaI8sLTqr16VQq0QFSQc64rfQ8jUK-FUUxvxhGkH2vtcwPWFDgOkOgzbdVGgyPwb4_Fgr5qdCc9A50oxaHOhKSh2wh2xvSGyGdkxNB-FrNuz10Y7BlUiHqqdcAbQJDHXW2Nyo4g9ormyE9sapR-BtByhwyFL2es_XAYWXBeD7vOuOCgkwPUkBEB61Yw6yaFHPROkgcAYjcEuVMbIid326tbfFDtFAu3Pu-L2tSuGW38lrMRmAPaoD0Yo0QcDMABTC0oNQBw_6SAitjNvOgAajAfm1Sh3VAVlArl0AJ4ALreWJtjSgEKMBaIAANoOeoADxKEsO2GVAASPAFAfVOtdNa04NIRDqfpFphQ3AZXqfOjAekMq1N6tZK4aWQQUCPDoPpwzFqTMXE8N4SGdwHioHMwAUns455zsa9WBD-HCHzBmjPqBM78U0CRzPRacy53VQyYRZByEQXzqXnUIGhOkIrIBssOdy3F3VkdjBEGjNo9IuJkt-eM1azEyBSgVHazUczdLgx5eU3J3VsH43_tcPKKwm5Y7IbUwkGsUwNRxT0vKPEan1C-AwAoOg_mrV6i4zKVmJo6yhDvNsA0RoLtmlQKd1QZQ761BEyQJ9tHru2Bo7BT18HY3XtvSAe973VzdtI6-qDsaAeetNIqKY7hMnSE3Ix3dM7HDLe8M0MwsbwKOgoCudICc1AtbFApD9bLty1joEDDwZYdByrp2WJ7PU2NUFoDE1nicAASIG-AOFyHB_9AnHGeEdFkK7X49VqbB7tw73WZNuCC9cW4nmQinYMJCb4bmPP3C8x-HAEWxCMZIIreQphNcXigMCQeeWZjtJR7gqYNxINW5mCzc9Vj3enGKJkG9d63vg5I5Mb8yBw-7EA9-7ADgwioljTb-UdNOTjqIFXYcwPQfB6-6H5CefJgrHj56xPqBI7xVT-n5Ameg-fZ7Xn5CBeRBF71SXhm51PCp9r6Rl00hG9W9QCKOAyfhyp9QBAWQpA6BoYZ1N_7p25dFAV2lq1GX_g-9JAlzL8I8uqCRzUKfMAWd5fN5x4_NvCTr-QI7pRLu1Cm_RJ7hwDR7e-_99Xzvb4e3h7xJKBQN6f0Dxx6w4J6S7D5B6V7v5ohd65756F7AHF6S5l6-gV6ciQGjDQEESwFN7wEt6gFQDt4eAf4Q6h495955YD5VxD4p5ohj4T4H4z5qY4EPqery57DlaVawgJCX5TAFZVZwj34n4DxW59DAg_Qv7GDX7O7fCu734e5QBe7P4NYzB-7TpoHZ5f4R7zBR4AH2BAFW6t7UGjAQGB5EEh6YEN5wH6GIGpQoEZ4mFQGf6kb16N7N66qt74Ed4OHEHfikGuEkAUHZBgGj7j6T4taH5ciz7Tay55asFHYuq9b9Y4g1DcHfBNZcitYDZVA1ACGqCW5n7AhYriFX4dI37SF36X6P4DyKFxbKFv72HoGOGh7f6R5_7R61C6F-FEAGEj5ojGEg416NHmEuFMEkAl5IG2FV71HqFOFYGdHuEEGmE54-EuhkENYBFUE9GjC0GhHT4RGMEeoGwkCi7pCEHMEkDo6C646nrY4MBXF6roYC71B3F4btxUSCDPHnHgzWD7rj4xCYB_6o6nYl4yScL4H3q7GnbHHi6S6zhQAOIzpg4rZnDM7bZKGnCSE0S35u5FGVHe5FEqEB79Hjp5YfaDHNFW7catE6FhB5YjFdGgGGFp6oFTEYHOGWF5ZjE2G9HMlEleFmFsnYFWFJ4eGnENHeG-F0nrFBE0EhF0Bsibg1Bxr_bC4eoAwPZ0CDACobCzrzooBEBgFPAFAgCrbfBQkeAnp9Gg4erkAc7hAIDFQereDipJZlQIDVGkkQ6MrMrVpSaoDuqPodC6hUIDC5qKYFqyKDC-kIC8rJhAg0hlYmZ6h0hqZiYqAUAZADAvjnbw4uqIgZDlw4BuoTaKoNpKZpkZkOpEAJT2BEAAD832-ob4qAPq6ZfqPaiEHZkwE2s-sOicNg0AGAV2E6lpb2amNpHGO0amTp0gLp9gcG7AsOvKcpup4ZUAogeKC5UgsGdkFE6o4ofIVa8YrW1AXIPQdcqgSgjMmgBAoAt88ACANQFah58ghZ6UlauCOaK5WaYgkgQAA
+	⚠ Please be aware that this chart is not an official demo of Apache ECharts but is made by user-generated code.
+-->
+<!DOCTYPE html>
+<html lang="en" style="height: 100%">
+<head>
+  <meta charset="utf-8">
+</head>
+<body style="height: 100%; margin: 0">
+  <div id="container" style="height: 100%"></div>
+
+  
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/echarts.min.js"></script>
+  
+  <!-- Uncomment this line if you want to dataTool extension
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/dataTool.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use gl extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-gl/dist/echarts-gl.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-stat extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-stat/dist/ecStat.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to echarts-graph-modularity extension
+  <script type="text/javascript" src="https://echarts.apache.org/en/js/vendors/echarts-graph-modularity/dist/echarts-graph-modularity.min.js"></script>
+  -->
+  <!-- Uncomment this line if you want to use map
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@4.9.0/map/js/world.js"></script>
+  -->
+  <!-- Uncomment these two lines if you want to use bmap extension
+  <script type="text/javascript" src="https://api.map.baidu.com/api?v=3.0&ak=YOUR_API_KEY"></script>
+  <script type="text/javascript" src="https://fastly.jsdelivr.net/npm/echarts@5/dist/extension/bmap.min.js"></script>
+  -->
+
+  <script type="text/javascript">
+    var dom = document.getElementById('container');
+    var myChart = echarts.init(dom, 'dark', {
+      renderer: 'svg',
+      useDirtyRect: false
+    });
+    var app = {};
+    
+    var option;
+
+    myChart.resize({
+  width: 600,
+  height: 300
+});
+const indices = {
+  name: 0,
+  group: 1,
+  developmentProgress: 2,
+  priority: 3,
+  complexity: 4,
+  timeToRelease: 5,
+  id: 6
+};
+
+const schema = [
+  { name: 'name', index: 0 },
+  { name: 'group', index: 1 },
+  { name: 'developmentProgress', index: 2 },
+  { name: 'priority', index: 3 },
+  { name: 'complexity', index: 4 },
+  { name: 'timeToRelease', index: 5 },
+  { name: 'id', index: 6 }
+];
+
+// Define group order explicitly for consistent color mapping
+const groupCategories = [
+  "Smart Access",
+  "Booking System",
+  "Automation & AI",
+  "OTA & Sync",
+  "Guest Experience",
+  "Reporting & Views",
+  "Business Tools"
+];
+
+// Define fixed color palette (high contrast) matching new groups
+const groupColors = [
+  "#E74C3C", // Smart Access
+  "#3498DB", // Booking System
+  "#8E44AD", // Automation & AI
+  "#1ABC9C", // OTA & Sync
+  "#F1C40F", // Guest Experience
+  "#E67E22", // Reporting & Views
+  "#95A5A6", // Business Tools
+];
+
+// Sample data with updated groups
+const featureData = [
+  ["Check-in Ticket", "Smart Access", 100, 3, 5, 0],
+  ["Direct Booking V2", "Booking System", 100, 3, 6, 0],
+  ["7-Day Sales Report", "Reporting & Views", 100, 2, 4, 0],
+  ["QR & Mobile Unlock", "Smart Access", 100, 3, 7, 0],
+  ["Reservation & Payment View", "Guest Experience", 100, 3, 5, 0],
+  ["Expense Tracker", "Business Tools", 100, 2, 5, 0],
+  ["Landed Gate Passcode", "Smart Access", 100, 3, 6, 0],
+  ["WhatsApp Payment Reminder", "Guest Experience", 100, 2, 4, 0],
+  ["WhatsApp Automation", "Automation & AI", 100, 5, 6, 0],
+  ["2-Way OTA Sync", "OTA & Sync", 100, 5, 7, 0],
+  ["Ticket Management", "Guest Experience", 100, 3, 5, 0],
+  ["Passcode Gen (Online/Offline)", "Smart Access", 100, 4, 6, 0],
+  ["Remote Unlock", "Smart Access", 100, 3, 7, 0],
+  ["5-Digit Passcode", "Smart Access", 100, 2, 6, 0],
+  ["Battery Alert", "Business Tools", 100, 2, 4, 0],
+  ["Change Unit on Booking", "Booking System", 100, 2, 2, 0],
+  ["IC Upload Post-Booking", "Guest Experience", 100, 3, 4, 0],
+  ["AI Description", "Automation & AI", 100, 5, 5, 0],
+  ["Group Booking", "Booking System", 100, 3, 6, 0],
+  ["Landing Page", "Guest Experience", 100, 3, 5, 0],
+  ["AI Chat Assistant", "Automation & AI", 100, 5, 5, 0],
+  ["AI Review Replies", "Automation & AI", 90, 4, 5, 15],
+  ["OTA Full Sync", "OTA & Sync", 80, 5, 7, 7],
+  ["Blog Page", "Business Tools", 70, 2, 4, 20],
+  ["Dynamic Guest Report", "Reporting & Views", 90, 3, 6, 5],
+  ["QR Self Check-in", "Smart Access", 100, 3, 6, 0],
+  ["Smart Cabinet Lock", "Smart Access", 100, 4, 6, 0],
+  ["QR Complaints", "Business Tools", 100, 2, 3, 0],
+  ["3 Calendar Views", "Guest Experience", 90, 5, 6, 10],
+  ["Attraction Manager", "Guest Experience", 100, 3, 2, 0],
+  ["Ancillary Manager", "Guest Experience", 100, 2, 2, 0],
+  ["Quotation Tool", "Business Tools", 80, 3, 6, 10],
+  ["Reyhut.ai", "Business Tools", 60, 5, 7, 40]
+];
+
+
+
+
+
+// Normalize numeric data
+function normalizeData(data) {
+  data.forEach(row => {
+    row.forEach((v, i) => {
+      if (i !== indices.name && i !== indices.group) {
+        row[i] = parseFloat(v) || 0;
+      }
+    });
+  });
+}
+
+normalizeData(featureData);
+
+function getOption(data) {
+  return {
+    backgroundColor: '#2c2c2c',
+    title: {
+      text: 'Feature Attributes by Group',
+      left: 'center',
+      top: 0,
+      textStyle: {
+        color: '#fff',
+        fontSize: 18,
+        fontWeight: 'bold'
+      }
+    },
+    tooltip: {
+      trigger: 'item',
+      backgroundColor: '#222',
+      borderColor: '#aaa',
+      borderWidth: 1,
+      formatter: params => {
+        const d = params.data;
+        return `
+          <strong>${d[indices.name]}</strong><br/>
+          Dev Progress: ${d[indices.developmentProgress]}%<br/>
+          Priority: ${d[indices.priority]}<br/>
+          Complexity: ${d[indices.complexity]}<br/>
+          Time to Release: ${d[indices.timeToRelease]} days
+        `;
+      }
+    },
+    visualMap: {
+      type: 'piecewise',
+      dimension: indices.group,
+      categories: groupCategories,
+      inRange: {
+        color: groupColors
+      },
+      textStyle: {
+        color: '#fff'
+      },
+      orient: 'vertical',
+      left: 1,
+      top: 60,
+      // Add legend title
+      formatter: value => value,
+      itemWidth: 20,
+      itemHeight: 14
+    },
+    parallelAxis: [
+      
+      {
+        dim: indices.developmentProgress,
+        name: 'Dev Progress (%)',
+        min: 0,
+        max: 100,
+        nameLocation: 'end',
+        nameGap: 15,
+        nameTextStyle: { color: '#eee', fontSize: 12 },
+        axisLine: { lineStyle: { color: '#888' } },
+        axisTick: { lineStyle: { color: '#888' } },
+        axisLabel: { color: '#ccc' },
+        splitLine: { show: true }
+      },
+      {
+        dim: indices.priority,
+        name: 'Priority',
+        inverse: true,
+        min: 1,
+        max: 5,
+        nameLocation: 'end',
+        nameGap: 15,
+        nameTextStyle: { color: '#eee', fontSize: 12 },
+        axisLine: { lineStyle: { color: '#888' } },
+        axisTick: { lineStyle: { color: '#888' } },
+        axisLabel: { color: '#ccc' },
+        splitLine: { show: true }
+      },
+      {
+        dim: indices.complexity,
+        name: 'Complexity',
+        min: 1,
+        max: 7,
+        nameLocation: 'end',
+        nameGap: 15,
+        nameTextStyle: { color: '#eee', fontSize: 12 },
+        axisLine: { lineStyle: { color: '#888' } },
+        axisTick: { lineStyle: { color: '#888' } },
+        axisLabel: { color: '#ccc' },
+        splitLine: { show: true }
+      },
+      {
+        dim: indices.timeToRelease,
+        name: 'Time to Release',
+        min: 0,
+        max: 60,
+        nameLocation: 'end',
+        nameGap: 15,
+        nameTextStyle: { color: '#eee', fontSize: 12 },
+        axisLine: { lineStyle: { color: '#888' } },
+        axisTick: { lineStyle: { color: '#888' } },
+        axisLabel: { color: '#ccc' },
+        splitLine: { show: true }
+      }
+    ],
+    parallel: {
+      left: 140,
+      top: 60,
+      right: 50,
+      bottom: 30,
+      layout: 'horizontal',
+      axisExpandable: true,
+      parallelAxisDefault: {
+        type: 'value',
+        nameLocation: 'end',
+        nameGap: 15,
+        nameTextStyle: {
+          color: '#eee',
+          fontSize: 12
+        },
+        axisLine: { lineStyle: { color: '#888' } },
+        axisTick: { lineStyle: { color: '#888' } },
+        axisLabel: { color: '#ccc' },
+        splitLine: { show: false }
+      }
+    },
+    series: [{
+  name: 'Feature Lines',
+  type: 'parallel',
+  lineStyle: {
+    width: 2.3,
+    opacity: 0.5,
+    color: function(params) {
+      const group = featureData[params.dataIndex][indices.group];
+      const idx = groupCategories.indexOf(group);
+      return idx !== -1 ? groupColors[idx] : '#999';
+    }
+  },
+  emphasis: {
+    lineStyle: {
+      width: 4,
+      opacity: 1
+    }
+  },
+  data: featureData
+}]
+
+  };
+}
+
+// Apply option to the chart instance
+myChart.setOption(getOption(featureData));
+
+
+    if (option && typeof option === 'object') {
+      myChart.setOption(option);
+    }
+
+    window.addEventListener('resize', myChart.resize);
+  </script>
+</body>
+</html>
